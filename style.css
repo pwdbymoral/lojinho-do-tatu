@@ -1,0 +1,37 @@
+/* tags */
+header {
+    display: table;
+    width: 100%;
+    background-color: #8629E0;
+}
+
+.rammus-icon {
+    width: 10%;
+    vertical-align: middle;
+}
+
+h1 {
+    color: moccasin;
+    padding: 20px;
+    margin: 0;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #DEE00B;
+}
+
+.rammeta {
+    width: 100%;
+}
+
+.texto {
+    margin: 5%;
+    margin-top: 0;
+}
+
+
+
