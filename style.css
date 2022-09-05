@@ -2,26 +2,58 @@
 header {
     display: table;
     width: 100%;
-    background-color: #8629E0;
+    background-color: #90ee90;
 }
 
 .rammus-icon {
-    width: 10%;
+    width: 128px;
+    height: 128px;
     vertical-align: middle;
 }
 
-h1 {
-    color: moccasin;
+.caixa {
+    position: relative;
+    width: 940px;
+    margin: 0 auto 0 auto;
+}
+
+header p{
+    font-size: 30px;
+    font-weight: bold;
+    color: #A14271;
     padding: 20px;
     margin: 0;
     display: inline-block;
     vertical-align: middle;
 }
 
-body {
-    margin: 0;
-    padding: 0;
-    background-color: #DEE00B;
+nav {
+    position: absolute;
+    right: 0;
+    top: 55px;
+}
+
+nav li {
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a {
+    font-weight: bold;
+    color: black;
+    text-transform: uppercase;
+    font-size: 22px;
+    text-decoration: none;
+
+}
+
+nav a:hover {
+    color: #EDAC79;
+    text-decoration: underline;
+}
+
+main {
+    padding: 5%;
 }
 
 .rammeta {
@@ -33,5 +65,14 @@ body {
     margin-top: 0;
 }
 
+footer {
+    background-color: #B5A8ED;
+    text-align: center;
+    padding: 20px 0 40px 0;
+}
+
+.rammus-foot {
+    width: 10%;
+}
 
 
