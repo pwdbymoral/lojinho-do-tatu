@@ -1,0 +1,100 @@
+header {
+    background-color: #90ee90;
+    padding: 20px 0;
+}
+
+.rammus-icon {
+    width: 128px;
+    height: 128px;
+}
+
+.caixa {
+    position: relative;
+    width: 940px;
+    margin: 0 auto 0 auto;
+}
+
+nav {
+    position: absolute;
+    right: 0;
+    top: 60px;
+}
+
+nav li {
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a {
+    font-weight: bold;
+    color: black;
+    text-transform: uppercase;
+    font-size: 22px;
+    text-decoration: none;
+
+}
+
+nav a:hover {
+    color: #EDAC79;
+    text-decoration: underline;
+}
+
+.produtos {
+    width: 940px;
+    margin: 0 auto 0 auto;
+    padding: 50px 0;
+    
+}
+
+.produtos li {
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 15px 20px;
+    box-sizing: border-box;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.produtos li:hover {
+    border-color: #EDAC79;
+}
+
+.produtos li:hover h2 {
+    font-size: 30px;
+}
+
+.produtos li:active {
+    border-color: #B5A8ED;
+}
+
+.produtos h2 {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.desc {
+    font-size: 18px;
+}
+
+.preco {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+footer {
+    padding: 20px 0 40px 0;
+    text-align: center;
+    background-color: #B5A8ED;
+}
+
+.rammus-foot {
+    width: 10%;
+}
+
+.copyright {
+    margin: 20px 0;
+}
