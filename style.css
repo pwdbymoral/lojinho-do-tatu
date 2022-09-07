@@ -65,6 +65,11 @@ main {
     margin-top: 0;
 }
 
+main h2 {
+    font-size: larger;
+    font-weight: bold;
+}
+
 footer {
     background-color: #B5A8ED;
     text-align: center;

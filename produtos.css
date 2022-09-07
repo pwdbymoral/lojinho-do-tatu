@@ -90,9 +90,12 @@ nav a:hover {
 }
 
 footer {
-    padding: 20px 0 40px 0;
+    width: 100%;
+    padding: 10px 0;
     text-align: center;
     background-color: #B5A8ED;
+    position: absolute;
+    
 }
 
 .rammus-foot {
