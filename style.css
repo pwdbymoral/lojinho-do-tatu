@@ -6,6 +6,9 @@ html {
 /* Declaração de fonte */
 body {
     font-family: 'Montserrat', sans-serif;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
 /* Header/Cabeçalho */
@@ -50,6 +53,10 @@ nav a:hover {
     color: #EDAC79;
 }
 
+main {
+    margin: auto 0;
+}
+
 /* Footer/Rodapé */
 
 footer {
@@ -57,7 +64,7 @@ footer {
     padding: 5px 0;
     text-align: center;
     background: #226E22;
-    position: absolute;
+    margin-top: auto;
 }
 
 footer p, a {
@@ -366,6 +373,11 @@ td, th {
         margin: 16px 0 24px;
     }
 
+    .mapa-conteudo iframe {
+        width: 80%;
+        margin: 0 auto;
+    }
+
     .conteudo-beneficios {
         text-align: center;
         padding-bottom: 3%;
@@ -465,7 +477,7 @@ td, th {
      .beneficios {
         padding-top: 1em;
     }
-    
+
     .conteudo-beneficios {
         text-align: center;
         padding-bottom: 1.5em;
