@@ -1,9 +1,9 @@
-html { 
+/* html { 
     min-width: 320px; 
     max-width: 1400px; 
-}
+} */
 
-/* Declaração de fonte */
+/* Body */
 body {
     font-family: 'Montserrat', sans-serif;
     min-height: 100vh;
@@ -24,6 +24,7 @@ header {
 
 .caixa {
     position: relative;
+    box-sizing: border-box;
     width: 940px;
     margin: 0 auto;
 }
