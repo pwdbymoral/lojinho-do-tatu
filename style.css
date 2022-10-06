@@ -1,3 +1,8 @@
+html { 
+    min-width: 320px; 
+    max-width: 1400px; 
+}
+
 /* Declaração de fonte */
 body {
     font-family: 'Montserrat', sans-serif;
@@ -403,7 +408,7 @@ td, th {
 
     .produtos li {
         width: 80%;
-        margin: 3% auto;
+        margin: 4% auto;
         height: auto;
         padding: 15px 0;
     }
@@ -457,13 +462,28 @@ td, th {
         padding: 1em;
     }
     
-    .beneficios {
+     .beneficios {
         padding-top: 1em;
+    }
+    
+    .conteudo-beneficios {
+        text-align: center;
+        padding-bottom: 1.5em;
     }
 
     .lista-beneficios, .imagem-beneficios {
         width: 80%;
-        padding: 3% 10%;
+        display: block;
+        margin: 0 auto;
+    }
+
+    .lista-beneficios {
+        padding-bottom: 1em;
+    }
+
+    .lista-beneficios li {
+        text-align: center;
+        margin-bottom: 3px;
     }
     
     .video {
@@ -483,7 +503,7 @@ td, th {
 
     .produtos li {
         width: 80%;
-        margin: 3% auto;
+        margin: 5% auto;
         height: auto;
     }
   }
