@@ -33,7 +33,7 @@ nav li {
 
 nav a {
     font-weight: bold;
-    color: black;
+    color: rgba(0, 10, 0, 0.8);
     text-transform: uppercase;
     font-size: 22px;
     text-decoration: none;
@@ -49,15 +49,20 @@ nav a:hover {
 
 footer {
     width: 100%;
-    padding: 10px 0;
+    padding: 5px 0;
     text-align: center;
-    background: linear-gradient(#888888 10%, rgba(0, 0, 0, 0.7));
+    background: #226E22;
     position: absolute;
+}
+
+footer p, a {
+    font-size: 1em;
+    color: #FEFEFE;
+    font-weight: 400;
 }
 
 footer a {
     text-decoration: none;
-    color: black;
     transition: 0.5s all;
 }
 
@@ -72,7 +77,7 @@ footer a:hover {
 }
 
 .copyright {
-    margin: 20px 0;
+    margin: 10px 0;
 }
 
 /* Index/Homepage */
@@ -169,7 +174,6 @@ footer a:hover {
     width: 940px;
     margin: 0 auto 0 auto;
     padding: 50px 0;
-    
 }
 
 .produtos img {
@@ -188,6 +192,7 @@ border: 2px solid black;
 border-radius: 10px;
 transition: 0.5s all;
 height: 370px;
+color: rgba(0, 10, 0, 0.8);
 }
 
 .produtos li:hover {
@@ -197,7 +202,7 @@ height: 370px;
 
 .produtos h2 {
     font-size: 25px;
-    font-weight: bold;
+    font-weight: 600;
 }
 
 .desc {
@@ -282,6 +287,10 @@ td, th {
         position: static;
     }
 
+    nav ul {
+        text-align: center;
+    }
+
     .principal {
         margin: 0 5%;
     }
@@ -303,10 +312,13 @@ td, th {
 
     .produtos {
         margin: 0 auto;
+        text-align: center;
+        padding: 30px 0;
     }
 
     .produtos li {
         width: 80%;
         margin: 3% auto;
+        height: auto;
     }
 }
