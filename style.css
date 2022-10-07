@@ -35,6 +35,13 @@ nav {
     top: 55px;
 }
 
+.flex-container {
+    height: 1.5em;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
 nav li {
     display: inline;
     margin: 0 0 0 15px;
@@ -243,9 +250,10 @@ form label, form legend {
 
 .input-padrao {
     display: block;
-    margin: 0 0 15px;
+    margin: 15px 0 15px;
     padding: 10px 25px;
     width: 50%;
+
 }
 
 .checkbox {
@@ -426,9 +434,9 @@ td, th {
         padding: 15px 0;
     }
 
-    .input-padrao {
+    /* .input-padrao {
         margin-top: 15px;
-    }
+    } */
 }
 
 /* 
@@ -519,4 +527,8 @@ td, th {
         margin: 5% auto;
         height: auto;
     }
+
+    /* .input-padrao {
+        margin-top: 15px;
+    } */
   }
