@@ -17,18 +17,49 @@
 .nav__list {
 	align-items: center;
 	background-color: var(--footer-bg-color);
+	color: var(--white);
 	display: flex;
 	height: 2rem;
 	justify-content: space-evenly;
 }
 
 .nav__item {
-	font-size: 1.2rem;
+	font-size: 1.275rem;
 }
 
 .nav__link {
-	color: var(--white);
 	text-decoration: none;
 	text-transform: uppercase;
 	font-weight: bold;
+}
+
+@media screen and (min-width: 768px) {
+	.header {
+		flex-direction: row;
+		justify-content: space-around;
+	}
+
+	.header__icon {
+		width: 10rem;
+	}
+
+	.nav {
+		width: auto;
+	}
+
+	.nav__list {
+		background-color: inherit;
+		flex-direction: column;
+		align-items: flex-end;
+		line-height: 1.2;
+	}
+
+	.nav__item {
+		background-color: var(--footer-bg-color);
+		font-size: 1.5rem;
+		margin: .2rem 0;
+		text-align: right;
+		padding: 0 .5rem;
+		width: 100%;
+	}
 }

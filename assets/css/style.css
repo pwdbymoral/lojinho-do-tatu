@@ -1,8 +1,3 @@
-html {
-	/* min-width: 345px; */
-	/* max-width: 1400px; */
-}
-
 :root {
 	--header-bg-color: #90ee90;
 	--white: #fdfdfd;
@@ -16,12 +11,8 @@ html {
 }
 
 body {
+	color: var(--black);
 	font-family: 'Open Sans', sans-serif;
-	grid-template-areas: 
-	"header"
-	"main"
-	"footer";
-	grid-template-rows: 50px auto auto;
 }
 
 .title {

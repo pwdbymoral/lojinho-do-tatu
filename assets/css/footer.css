@@ -9,8 +9,8 @@ footer {
 }
 
 .copyright {
-	font-size: .8rem;
 	color: var(--white);
+	font-size: .8rem;
 	font-weight: 400;
 	padding: 1rem 0;
 }
