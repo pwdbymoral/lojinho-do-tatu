@@ -1,0 +1,38 @@
+.beneficios {
+	background: var(--white);
+}
+
+.beneficios__title {
+	color: var(--black);
+	text-align: center;
+	font-size: 2.5rem;
+}
+
+.beneficios__content {
+	background-color: #bcbcbc;
+	margin: 1rem 0;
+	padding: 1rem 0;
+}
+
+.beneficios__list {
+	text-align: center;
+	padding-bottom: 1rem;
+}
+
+.beneficios__list____item {
+	font-weight: 300;
+	line-height: 1.5;
+}
+
+
+.beneficios__image {
+	display: block;
+	margin: 0 auto;
+	box-shadow: 5px 5px 8px rgba(20, 20, 20, 0.9);
+	width: 80%;
+}
+
+.beneficios__video {
+	margin: 1rem auto;
+	max-width: 768px;
+}

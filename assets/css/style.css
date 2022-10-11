@@ -1,273 +1,29 @@
 html {
-	min-width: 345px;
-	max-width: 768px;
+	/* min-width: 345px; */
+	/* max-width: 1400px; */
 }
 
-/* Body */
+:root {
+	--header-bg-color: #90ee90;
+	--white: #fdfdfd;
+	--footer-bg-color: #226E22;
+	--black: #222222;
+	
+}
+
+.container {
+	padding: 0 1.5rem;
+}
+
 body {
-	font-family: 'Montserrat', sans-serif;
-}
-
-/* Header/Cabeçalho */
-.cabecalho {
-	display: flex;
-	background-color: #90ee90;
-	/* height: 200px; */
-	width: 100vw;
-	margin: auto;
-	justify-content: space-evenly;
-	text-align: center;
-	flex-flow: column wrap;
-}
-
-.rammus-icon {
-	width: 5rem;
-	height: 5rem;
-}
-
-.navbar {
-	height: 2rem;
-	display: flex;
-	justify-content: space-evenly;
-	align-items: center;
-
-	background-color: #226E22;
-}
-
-nav a {
-	font-weight: bold;
-	color: #ffffffeb;
-	text-transform: uppercase;
-	font-size: 1.2rem;
-	text-decoration: none;
-}
-
-main {
-	margin: auto 0;
-}
-
-/* Footer/Rodapé */
-
-footer {
-	width: 100%;
-	padding: 5px 0;
-	text-align: center;
-	background: #226E22;
-	margin-top: auto;
-}
-
-footer p, a {
-	font-size: 1em;
-	color: #FEFEFE;
-	font-weight: 400;
-}
-
-footer a {
-	text-decoration: none;
-	transition: 0.5s all;
-}
-
-footer a:hover {
-	cursor: pointer;
-	color: violet;
-}
-
-
-.footer__image {
-	width: 10%;
-}
-
-.copyright {
-	margin: 10px 0;
-}
-
-/* Index/Homepage */
-.banner {
-	width: 100vw;
+	font-family: 'Open Sans', sans-serif;
+	grid-template-areas: 
+	"header"
+	"main"
+	"footer";
+	grid-template-rows: 50px auto auto;
 }
 
 .title {
-	margin: 0.5em 0 1em;
-	
-	text-align: center;
-	font-size: 2rem;
-	font-weight: bold;
-	font-style: italic;
-}
-
-.about {
-	margin: 0 auto;
-	padding: 3em 0;
-	background-color: #FEFEFE;
-}
-
-.about p {
-	margin: 0 0 1em;
-}
-
-.about strong {
-	font-weight: bold;
-}
-
-.about em {
-	font-style: italic;
-}
-
-.map {
-	background: linear-gradient(#FEFEFE, #888888);
-}
-
-.map p {
-	text-align: center;
-	margin-bottom: 2em;
-}
-
-.map__content {
-	/* width: 940px; */
-	margin: 0 auto;
-}
-
-.beneficios {
-	padding: 3em 0 1.5em;
-	background-color: #888888;
-}
-
-.beneficios__content {
-	/* width: 640px; */
-	margin: 0 auto;
-}
-
-.beneficios__list {
-	width: 40%;
-	display: inline-block;
-	vertical-align: top;
-}
-
-.beneficios__list____item {
-	line-height: 1.5;
-}
-
-.beneficios__list____item::before {
-	content: "⚽";
-}
-
-.beneficios__image {
-	width: 60%;
-	box-shadow: 8px 8px 5px rgba(0, 0, 0, 0.7);
-}
-
-.about__image {
-	width: 120px;
-	/* float: left; */
-	margin: 0 10px 10px 0;
-}
-
-.beneficios__video {
-	/* width: 560px; */
-	margin: 1em auto;
-
-	box-shadow: 8px 8px 5px rgba(0, 0, 0, 0.7);
-}
-
-/* Página de Produtos */
-.produtos {
-	display: flex;
-	flex-direction: column;
-	padding: 1em 0;
-	align-items: center;
-}
-
-.produtos img {
-	width: 100%;
-}
-
-.produtos li {
-text-align: center;
-/* vertical-align: top; */
-margin: 1em 0;
-padding: 15px 20px 15px 20px;
-box-sizing: border-box;
-border: 2px solid black;
-border-radius: 10px;
-transition: 0.5s all;
-color: rgba(0, 10, 0, 0.8);
-}
-
-.produtos li:hover {
-	border-color: #EDAC79;
-	transform: scale(1.1);
-}
-
-.produtos h2 {
-	font-size: 25px;
-	font-weight: 600;
-}
-
-.desc {
-	font-size: 18px;
-	height: 40px;
-	vertical-align: middle;
-}
-
-.preco {
-	font-size: 20px;
-	font-weight: bold;
-	margin-top: 10px;
-}
-
-/* Página de Contatos */
-form {
-	margin: 40px;
-}
-
-form label, form legend {
-	display: block;
-	font-size: larger;
-	margin: 0 0 10px;
-}
-
-.input-padrao {
-	display: block;
-	margin: 15px 0 15px;
-	padding: 10px 25px;
-	width: 50%;
-
-}
-
-.checkbox {
-	margin: 20px 0;
-}
-
-.enviar {
-	width: 40%;
-	padding: 15px 0;
-	background: orange;
-	color: white;
-	font-weight: bold;
-	font-size: medium;
-	border: none;
-	border-radius: 5px;
-	transition: 0.5s all;
-	cursor: pointer;
-}
-
-.enviar:hover {
-	background-color: darkorange;
-	transform: scale(1.2);
-}
-
-table {
-	margin: 20px auto;
-}
-
-thead {
-	background-color: darkgray;
-	color: white;
-	font-weight: bold;
-}
-
-td, th {
-	border: 1px solid black;
-	padding: 8px 15px;
-	text-align: center;
+	font-family: 'Bebas Neue';
 }

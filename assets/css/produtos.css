@@ -1,0 +1,44 @@
+.produtos {
+	display: flex;
+	flex-direction: column;
+	padding: 1em 0;
+	align-items: center;
+}
+
+.produtos img {
+	width: 100%;
+}
+
+.produtos li {
+text-align: center;
+/* vertical-align: top; */
+margin: 1em 0;
+padding: 15px 20px 15px 20px;
+box-sizing: border-box;
+border: 2px solid black;
+border-radius: 10px;
+transition: 0.5s all;
+color: rgba(0, 10, 0, 0.8);
+}
+
+.produtos li:hover {
+	border-color: #EDAC79;
+	transform: scale(1.1);
+}
+
+.produtos h2 {
+	font-size: 25px;
+	font-weight: 600;
+}
+
+.desc {
+	font-size: 18px;
+	height: 40px;
+	vertical-align: middle;
+}
+
+.preco {
+	font-size: 20px;
+	font-weight: bold;
+	margin-top: 10px;
+}

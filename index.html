@@ -3,10 +3,16 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">
         <title> Lojinho do Tatu </title>
         <link rel="stylesheet" href="./assets/css/reset.css">
         <link rel="stylesheet" href="./assets/css/style.css">
-        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="./assets/css/header.css">
+        <link rel="stylesheet" href="./assets/css/banner.css">
+        <link rel="stylesheet" href="./assets/css/about.css">
+        <link rel="stylesheet" href="./assets/css/map.css">
+        <link rel="stylesheet" href="./assets/css/beneficios.css">
+        <link rel="stylesheet" href="./assets/css/footer.css">
         <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
         <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
         <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
@@ -14,48 +20,41 @@
     </head>
 
     <body>
-        <header>
-            <div class="cabecalho container">
-                <h1> <img class="rammus-icon" src="./assets/img/okay emote.webp" alt="Emote do rammus de óculos escuros fazendo um legal com o polegar"> </h1>
-                <nav>
-                    <ul class="navbar">
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="produtos.html">Produtos</a></li>
-                        <li><a href="contato.html">Contato</a></li>
-                    </ul>
-                </nav>
-            </div>
+        <header class="header container">
+            <h1> <img class="header__icon" src="./assets/img/okay emote.webp" alt="Emote do rammus de óculos escuros fazendo um legal com o polegar"> </h1>
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item"><a class="nav__link" href="index.html">Home</a></li>
+                    <li class="nav__item"><a class="nav__link" href="produtos.html">Produtos</a></li>
+                    <li class="nav__item"><a class="nav__link" href="contato.html">Contato</a></li>
+                </ul>
+            </nav>
         </header>
 
-        <img class="banner" src="./assets/img/banner.png" alt="Demonstração da skin Rammus astronauta por vários ângulos.">
         <main>
-
-            <section class="about">
-                <h2 class="title about__title">O que é o lojinho do tatu?</h2>
-
-                <img class="about__image" src="./assets/img/utensilios.jpg" alt="Utensílios de um barbeiro.">
-                <p>Nossa missão é: <em>"Proporcionar auto-estima e qualidade de vida aos clientes".</em></p>
-                <p>Oferecemos profissionais experientes e antenados às mudanças no mundo da moda. O atendimento possui padrão de excelência e agilidade, garantindo qualidade e satisfação dos nossos clientes.</p>
+            <img class="banner" src="./assets/img/banner.png" alt="Demonstração da skin Rammus astronauta por vários ângulos.">
+            <section class="about container">
+                <h2 class="title about__title">
+                    O que é o lojinho do tatu?
+                </h2>
+                <p class="about__text">Nossa missão é: "Proporcionar auto-estima e qualidade de vida aos clientes". Oferecemos profissionais experientes e antenados às mudanças no mundo da moda. O atendimento possui padrão de excelência e agilidade, garantindo qualidade e satisfação dos nossos clientes.</p>
             </section>
-
-            <section class="map">
-                <h3 class="title map_title">Onde nos encontrar:</h3>
-                <p>Estamos localizados no coração de Summoners Rift.</p>
+            <section class="map container">
+                <h2 class="title map__title">Onde nos encontrar:</h2>
+                <p class="map__text">Estamos localizados no coração de Summoners Rift:</p>
                 <div class="map__content">
                     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3677.682416320378!2d-42.88725084950015!3d-22.81422878498562!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x99949517188d9b%3A0xb2c8cccb22a28e55!2sSummoner&#39;s%20Rift!5e0!3m2!1spt-BR!2sbr!4v1664993697118!5m2!1spt-BR!2sbr" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>             
             </section>
 
-            <section class="beneficios">
+            <section class="beneficios container">
                 <h3 class="title beneficios__title">Benefícios</h3>
                 <div class="beneficios__content">
                     <ul class="beneficios__list">
-                        <li class="beneficios__list____item">Atendimento aos Clientes</li>
-                        <li class="beneficios__list____item">Espaço diferenciado</li>
-                        <li class="beneficios__list____item">Localização</li>
-                        <li class="beneficios__list____item">Profissionais Qualificados</li>
-                        <li class="beneficios__list____item">Pontualidade</li>
-                        <li class="beneficios__list____item">Limpeza</li>
+                        <li class="beneficios__list____item">Okay</li>
+                        <li class="beneficios__list____item">Hm</li>
+                        <li class="beneficios__list____item">Legal</li>
+                        <li class="beneficios__list____item">Tá</li>
                     </ul><img src="./assets/img/beneficios.jpg" class="beneficios__image" alt="Homem tendo seu cabelo cortado.">
                 </div>
                 <div class="beneficios__video">
@@ -66,9 +65,9 @@
                
         </main>
         
-        <footer>
+        <footer class="footer container">
             <img class="footer__image" src="./assets/img/rammus footer.png" alt="">
-            <p class="copyright">&copy; Copyright <a href="https://github.com/pwdbymoral">pwdbymoral</a> 2022</p>
+            <p class="copyright">&copy; Copyright <a class="footer__link" href="https://github.com/pwdbymoral">pwdbymoral</a> 2022</p>
         </footer>
 
 

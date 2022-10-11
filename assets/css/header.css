@@ -1,0 +1,34 @@
+.header {
+	background-color: var(--header-bg-color);
+	display: flex;
+	flex-flow: column;
+	grid-area: header;
+	align-items: center;
+}
+
+.header__icon {
+	width: 10rem;
+}
+
+.nav {
+	width: 100vw;
+}
+
+.nav__list {
+	align-items: center;
+	background-color: var(--footer-bg-color);
+	display: flex;
+	height: 2rem;
+	justify-content: space-evenly;
+}
+
+.nav__item {
+	font-size: 1.2rem;
+}
+
+.nav__link {
+	color: var(--white);
+	text-decoration: none;
+	text-transform: uppercase;
+	font-weight: bold;
+}
