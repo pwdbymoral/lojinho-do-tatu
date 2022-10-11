@@ -20,3 +20,18 @@
 .map__iframe {
 	padding-bottom: 1rem;
 }
+
+@media screen and (min-width: 768px) {
+
+	.map__texts {
+		padding: 0 3rem;
+	}
+	.map__title {
+		font-size: 3.5rem;
+	}
+
+	.map__text {
+		font-size: 2rem;
+		padding: 2rem 0;
+	}
+}

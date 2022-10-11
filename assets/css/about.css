@@ -27,7 +27,7 @@
 	border-radius: 3rem;
 	margin: 0 auto;
 	margin-bottom: 1rem;
-	max-width: 230px;
+	max-width: 50%;
 	padding: .5rem 0;
 	text-align: center;
 	width: 65%;
@@ -41,4 +41,32 @@
 .about__citation___subtitle {
 	font-size: .8rem;
 	padding-top: .5rem;
+}
+
+@media screen and (min-width: 768px) {
+	.about {
+		padding-top: 2rem;
+	}
+
+	.about__title {
+		font-size: 3.5rem;
+	}
+
+	.about__text {
+		font-size: 2rem;
+		padding: 2rem 0;
+	}
+
+	.about__citation {
+		margin-bottom: 2rem;
+	}
+
+	.about__citation___text {
+		font-size: 2.5rem;
+	}
+	
+	.about__citation___subtitle {
+		font-size: 1.5rem;
+		padding-top: .5rem;
+	}
 }
