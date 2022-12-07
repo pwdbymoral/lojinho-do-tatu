@@ -11,8 +11,19 @@
 }
 
 body {
+	display: grid;
 	color: var(--black);
 	font-family: 'Open Sans', sans-serif;
+	grid-template-areas:
+		"header"
+		"main"
+		"footer";
+	grid-template-rows: auto auto auto;
+}
+
+main {
+	grid-area: main;
+	min-height: 65vh;
 }
 
 .title {

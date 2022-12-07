@@ -1,23 +1,20 @@
 .produtos {
-	align-items: center;
-	display: flex;
-	flex-direction: column;
-	padding-bottom: 1rem;
-	padding-top: 1rem;
-}
-
-.produtos img {
-	width: 100%;
+	display: grid;
+	gap: 1rem;
+	row-gap: 2rem;
+	justify-items: center;
+	padding-bottom: 2rem;
+	padding-top: 2rem;
 }
 
 .produtos li {
 	box-shadow: var(--black) 1px 1px 8px 1px;
 	border-radius: 10px;
 	box-sizing: border-box;
-	margin: 1rem 0;
 	padding: 1rem 1.5rem;
 	text-align: center;
 	transition: 0.5s all;
+	width: 304px;
 }
 
 .produtos li:hover {
@@ -39,4 +36,16 @@
 	font-size: 20px;
 	font-weight: bold;
 	margin-top: 10px;
+}
+
+@media screen and (min-width: 768px) {
+	.produtos {
+		grid-template-columns: 50% 50%;
+	}
+}
+
+@media screen and (min-width: 1050px) {
+	.produtos {
+		grid-template-columns: 33% 33% 33%;
+	}
 }

@@ -19,7 +19,7 @@
 	background-color: var(--footer-bg-color);
 	color: var(--white);
 	display: flex;
-	height: 2rem;
+	height: 2.5rem;
 	justify-content: space-evenly;
 }
 
@@ -37,6 +37,7 @@
 	.header {
 		flex-direction: row;
 		justify-content: space-around;
+		width: 100%;
 	}
 
 	.nav {
