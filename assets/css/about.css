@@ -29,7 +29,7 @@
 	max-width: 50%;
 	padding: .5rem 0;
 	text-align: center;
-	width: 65%;
+	width: 40%;
 }
 
 .about__citation___text {
@@ -48,12 +48,12 @@
 	}
 
 	.about__title {
-		font-size: 3.5rem;
+		font-size: 3rem;
 	}
 
 	.about__text {
-		font-size: 2rem;
-		padding: 2rem 0;
+		font-size: 1.4rem;
+		padding: 2rem 10vw;
 	}
 
 	.about__citation {
@@ -61,11 +61,10 @@
 	}
 
 	.about__citation___text {
-		font-size: 2.5rem;
+		font-size: 2rem;
 	}
 	
 	.about__citation___subtitle {
-		font-size: 1.5rem;
-		padding-top: .5rem;
+		font-size: 1.2rem;
 	}
 }
