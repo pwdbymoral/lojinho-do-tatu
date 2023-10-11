@@ -4,8 +4,6 @@
 	flex-flow: column;
 	grid-area: header;
 	align-items: center;
-	
-	height: 20vh;
 }
 
 .header__icon {

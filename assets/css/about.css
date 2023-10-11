@@ -30,6 +30,7 @@
 	padding: .5rem 0;
 	text-align: center;
 	width: 40%;
+	min-width: 204px;
 }
 
 .about__citation___text {
